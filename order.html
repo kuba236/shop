@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="candy.png" type="image/icon" />
+    <link rel="stylesheet" href="order.css">
+    <title>Order - Candy shop</title>
+</head>
+<body>
+    <div class="container"> 
+        <ul>
+            <li><div class="box">
+                <div class="image">
+                    <img src="candy (1).png" id="image">
+                </div>
+        
+        
+        
+                <div class="login">
+                    <div class="content1">
+                        <h3><span id="hello"></span></h3>
+                        <h2>Good morning!</h2></div>
+        
+                    <div class="content">
+                        <ul>
+                            <li><h2>What do you want to order?</h2><br></li>
+                            <li><select id="custom-select">
+                                <option value="candy">Candys</option>
+                                <option value="cakes">Cakes</option>
+                                <option value="cookies">Cookies</option>
+                                <option value="party">Party</option>
+                              </select></li>
+                            
+                            <li><ul id="buttons">
+                                <li><span id="btn">Add to card</span></li>
+                                <li><a id="btn-buy">Buy</a></li>
+                            </ul></li>
+                            <li><span id="total"></span></li>
+                            <li id="back"></li>
+                            
+                        </ul>
+                    </div>     
+                </div>
+            </div></li>
+
+
+            <li><section id="ordered-snacks"></section></li>
+        </ul>
+    
+</div>
+
+    
+    <script src="order.js"></script>
+</body>
+</html>

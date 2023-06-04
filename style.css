@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+
+body {
+    background-color: #FFE8FF;
+    color: #A85EC2;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #FAF2FF;
+    z-index: 1;
+    border-bottom: #A85EC2 2px solid;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+
+}
+
+.menu ul li {
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    color: #A85EC2;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu ul li:first-child {
+    margin-right: auto;
+    margin-left: 20px;
+    color: #A85EC2;
+}
+
+.link {
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #5EBAB1;
+    transition: 0.3s;
+}
+
+a:hover .link {
+
+    width: 100%;
+}
+
+#home ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home ul li:first-child {
+    width: 50%;
+}
+
+.box {
+    width: 360px;
+    height: 400px;
+    background-color: #e8e1eb;
+    border-radius: 25px;
+    border: #A85EC2 1px solid;
+    transition: 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.box:hover {
+    scale: 1.04;
+    background-color: #e8d9ee;
+}
+
+#candys ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 30px;
+
+}
+
+#candys {
+    text-align: center;
+    padding-top: 140px;
+}
+
+#candys h1 {
+    margin-bottom: 50px;
+    font-size: 4vh;
+    color: #5EBAB1;
+}
+
+#cakes {
+    background-color: #A85EC2;
+    color: #e8d9ee;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+#cakes h1 {
+
+    font-size: 4vh;
+
+}
+
+#cakes ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+#cakes ul li:first-child {
+    width: 600px;
+}
+
+
+
+
+#cookies ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 30px;
+
+}
+
+#cookies {
+    text-align: center;
+    padding-top: 140px;
+}
+
+#cookies h1 {
+    margin-bottom: 50px;
+    font-size: 4vh;
+    color: #5EBAB1;
+}
+
+#partys {
+    background-color: #5EBAB1;
+    color: #e8e1eb;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#partys ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+#partys ul li:last-child {
+    width: 400px;
+}
+
+#partys h1 {
+
+    font-size: 4vh;
+
+}
+
+#contact {
+    background-color: #FFE8FF;
+    color: #5EBAB1;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#contact ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+#contact ul li:first-child {
+    width: 400px;
+}
+
+#contact h1 {
+
+    font-size: 4vh;
+
+}
