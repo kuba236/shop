@@ -25,11 +25,11 @@ btn.onclick = function () {
 
                 var newDiv = document.createElement("div");
                 
-                // Dodaj klasę "box" do nowego elementu div
+
                 newDiv.classList.add("boxe");
                 let sum = 10
                 total += sum
-                // Dodaj treść do nowego elementu div (opcjonalne)
+
                 
                 var newImg = document.createElement("img");
                 var newSpan = document.createElement("span");
@@ -43,7 +43,7 @@ btn.onclick = function () {
                 var description = document.createElement("span");
                 description.textContent = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo iure incidunt officia quia esse consequatur odit impedit assumenda aperiam accusamus?";
   
-                // Ustaw atrybut src dla elementu img
+
                 newImg.src = "candy.png";
                 
                 newDiv.appendChild(newImg);
@@ -53,10 +53,10 @@ btn.onclick = function () {
                 
 
                
-                // Znajdź kontener, do którego chcesz dodać nowy element div
+           
                 var container = document.getElementById("ordered-snacks");
   
-                 // Dodaj nowy element div do kontenera
+                 
                 container.appendChild(newDiv);
                 
             }
@@ -69,10 +69,10 @@ btn.onclick = function () {
 
                 var newDiv = document.createElement("div");
   
-                // Dodaj klasę "box" do nowego elementu div
+               
                 newDiv.classList.add("boxe");
   
-                // Dodaj treść do nowego elementu div (opcjonalne)
+                
                 
                 var newImg = document.createElement("img");
                 var newSpan = document.createElement("span");
@@ -86,7 +86,7 @@ btn.onclick = function () {
                 var description = document.createElement("span");
                 description.textContent = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo iure incidunt officia quia esse consequatur odit impedit assumenda aperiam accusamus?";
   
-                // Ustaw atrybut src dla elementu img
+               
                 newImg.src = "cake.png";
                 
                 newDiv.appendChild(newImg);
@@ -96,10 +96,10 @@ btn.onclick = function () {
                 
 
                
-                // Znajdź kontener, do którego chcesz dodać nowy element div
+                
                 var container = document.getElementById("ordered-snacks");
   
-                 // Dodaj nowy element div do kontenera
+                 
                 container.appendChild(newDiv);
                 
             };
@@ -109,10 +109,10 @@ btn.onclick = function () {
 
                 var newDiv = document.createElement("div");
   
-                // Dodaj klasę "box" do nowego elementu div
+                
                 newDiv.classList.add("boxe");
   
-                // Dodaj treść do nowego elementu div (opcjonalne)
+                
                 
                 var newImg = document.createElement("img");
                 var newSpan = document.createElement("span");
@@ -126,7 +126,7 @@ btn.onclick = function () {
                 var description = document.createElement("span");
                 description.textContent = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo iure incidunt officia quia esse consequatur odit impedit assumenda aperiam accusamus?";
   
-                // Ustaw atrybut src dla elementu img
+                
                 newImg.src = "cookies.png";
                 
                 newDiv.appendChild(newImg);
@@ -136,10 +136,10 @@ btn.onclick = function () {
                 
 
                
-                // Znajdź kontener, do którego chcesz dodać nowy element div
+              
                 var container = document.getElementById("ordered-snacks");
   
-                 // Dodaj nowy element div do kontenera
+                
                 container.appendChild(newDiv);
                 
             };
@@ -149,10 +149,10 @@ btn.onclick = function () {
 
                 var newDiv = document.createElement("div");
   
-                // Dodaj klasę "box" do nowego elementu div
+                
                 newDiv.classList.add("boxe");
   
-                // Dodaj treść do nowego elementu div (opcjonalne)
+                
                 
                 var newImg = document.createElement("img");
                 var newSpan = document.createElement("span");
@@ -166,7 +166,7 @@ btn.onclick = function () {
                 var description = document.createElement("span");
                 description.textContent = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo iure incidunt officia quia esse consequatur odit impedit assumenda aperiam accusamus?";
   
-                // Ustaw atrybut src dla elementu img
+                
                 newImg.src = "party-hat.png";
                 
                 newDiv.appendChild(newImg);
@@ -192,7 +192,6 @@ btn.onclick = function () {
 
     
     document.getElementById("total").innerHTML = `Total: ${total}$`;
-
 };
 
 
@@ -201,7 +200,7 @@ buy.onclick = function(){
     const buyChoose = window.prompt("Are you sure you want order?")
     if (buyChoose === "yes"){
         document.getElementById("total").innerHTML = `Ordered`;
-        buy.textContent = "Back to page";
+        
         var back = document.createElement("a");
         back.classList.add("back-btn");
         back.textContent = "Back to main page";
